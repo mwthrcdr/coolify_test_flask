@@ -9,4 +9,4 @@ def current_datetime():
     return f"<html><body>Obecna data i godzina: {now}</body></html>"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
